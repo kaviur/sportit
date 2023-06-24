@@ -1,0 +1,450 @@
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&display=swap");
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-size: 16px;
+  margin: 0 auto;
+  padding: 0;
+  max-width: 1440px;
+  color: #F5F5F5;
+}
+
+/*=============================================
+=              Header section                 =
+=============================================*/
+
+header {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 0;
+    height: 174px;
+}
+
+a{
+    text-decoration: none;
+    color: #242E52;
+}
+
+header ul{
+    list-style: none;
+    display: flex;
+    gap:.8rem;
+}
+
+header nav i{
+    color:#000000;
+    font-size: 2rem;
+    align-self: center;
+}
+
+.btn{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+    background: #8B48BF;
+    border-radius: 50px;
+    font-family: 'Be Vietnam';
+    font-style: normal;
+    color: #FFFFFF;
+}
+
+.btn-secondary{
+    width: 134px;
+    height: 44px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 50px;
+    background: #232C50;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.25);
+    color: #FFF;
+    font-size: 13.181px;
+    font-family: Be Vietnam;
+    font-weight: 500;
+}
+
+.btn-m{   
+    width: 134px;
+    height: 44px;
+    /* Inside auto layout */
+    font-weight: 500;
+    font-size: 13.1806px;
+    line-height: 19px;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+}
+
+.btn-xs{
+    padding: 10px 25px;
+    border-radius: 30px;
+    width: fit-content;
+}
+
+.container-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+}
+
+.orientation{
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+}
+
+.flex-col{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.container-section{
+    margin-top: 2vh;
+}
+
+/* hiding elements - mobile firts*/
+.media-m{
+  display: none;
+}
+
+.banner-zone > *{
+    width: 85vw;
+}
+
+.banner-zone article{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 85px 0 32px 0;
+    max-width: 500px;
+}
+
+.banner-zone h2{
+    font-family: 'Be Vietnam';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 114.6%;
+    /* or 57px */
+    display: flex;
+    align-items: center;
+    text-align: right;
+    letter-spacing: -0.035em;
+    margin: 0;
+    color: #232C50;
+    gap: 3px;
+}
+
+.banner-zone p{
+    font-family: 'Be Vietnam';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16.5584px;
+    line-height: 157.1%;
+    /* or 26px */
+    display: flex;
+    align-items: center;
+    text-align: right;
+    color: #000000;
+    /* Inside auto layout */
+    flex: none;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.need-zone{
+    margin: auto;
+    gap: 100px;
+    background: #3CDDF3;
+}
+
+.need-zone h3{
+    color: #FFF;
+    font-size: 36px;
+    font-family: Be Vietnam;
+    font-weight: 700;
+    line-height: 114.6%;
+    padding-bottom: 27px;
+}
+
+.need-zone p{
+    color: #FFF;
+    font-size: 16px;
+    font-family: Be Vietnam;
+    font-weight: 500;
+    line-height: 151.1%;
+    margin: 0;
+}
+
+.need-zone > article{
+    width: 90vw;
+    padding-bottom: 45px;
+    margin: auto;
+    align-items: start;
+}
+
+.need-zone > article *{
+    max-width: 480px;
+}
+
+
+.solutions-zone{
+    justify-content: center;
+    margin: 50px 0;
+}
+
+.solutions-zone h2{
+    display: flex;
+    color: #323851;
+    font-size: 16px;
+    font-family: Be Vietnam;
+    font-weight: 700;
+    letter-spacing: -0.24px;
+    border-radius: 50px 0px 0px 50px;
+    background: rgba(139, 72, 191, 0.30);
+    align-items: center;
+    gap: 3vw;
+}
+
+.solutions-zone p{
+    color: #B3B2B7;
+    font-size: 16.298px;
+    font-family: Be Vietnam;
+    font-weight: 500;
+    line-height: 25.52px;
+    letter-spacing: -0.163px;
+    padding: 0 5vw 0 4vw;
+}
+
+.solutions-zone div{
+    width: 92vw;
+    align-self: self-end;
+}
+
+.testimonial-zone{
+    color: #232C50;
+}
+
+.testimonial-zone > h3{
+    color: #242E53;
+    font-size: 39.214px;
+    font-family: Be Vietnam;
+    font-weight: 700;
+    line-height: 156.6%;
+    letter-spacing: -0.392px;
+    margin: 10px 0 60px 0;
+}
+
+.testimonial-zone article{
+    background: #FAFAFA;
+    position: relative;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 90vw;
+}
+
+.testimonial-zone > article > img{
+    transform: translateY(-50%);
+}
+
+.testimonial-zone > article > h4{
+    color: #3F4868;
+    font-size: 16.071px;
+    font-family: Be Vietnam;
+    font-weight: 700;
+    line-height: 156.6%;
+    letter-spacing: -0.161px;
+}
+
+.testimonial-zone > article > p{
+    color: #B9B9C1;
+    font-size: 16px;
+    font-family: Be Vietnam;
+    font-weight: 500;
+    line-height: 156.6%;
+    padding: 0 10px 30px 10px;
+}
+.testimonial-zone a.btn{
+    margin: 50px 0;
+}
+
+.goforit-zone{
+    gap: 50px;
+    background: #3CDDF3;
+}
+
+.goforit-zone div{
+    width: 70vw;
+    padding: 50px 0 0 0;
+}
+
+.goforit-zone p{
+    color: #FFF;
+    text-align: center;
+    font-size: 40px;
+    font-family: Be Vietnam;
+    font-weight: 700;
+    line-height: 119.6%;
+    letter-spacing: -0.2px;
+    margin: 0;
+}
+
+.goforit-zone .btn{
+    margin: 0 0 40px 0;
+}
+
+footer{
+    background: #1E1E26;
+}
+
+
+/*=============================================
+=                   FORM                      =
+=============================================*/
+.contact-form form{
+    display: flex;
+    width: 80vw;
+    margin: 50px 0;
+    height: 44px;
+}
+
+.contact-form input:first-child{
+    border-radius: 50px;
+    background: #FFF;
+    color: #A0A0A0;
+    font-size: 13.181px;
+    font-family: Be Vietnam;
+    font-weight: 600;
+    display: flex;
+    height: 44px;
+    width: 90%;
+}
+
+.contact-form input:last-child{
+    margin: 0;
+}
+
+.footer-navigation-menu{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+}
+
+.footer-navigation-menu ul{
+    list-style: none;
+    text-align: left;
+    padding: 0;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+/* .footer-navigation-menu ul li{
+    margin: 0;
+    padding: 0;
+} */
+
+.footer-navigation-menu ul li a{
+    color: #FFF;
+    font-size: 16px;
+    font-family: Be Vietnam;
+}
+    
+/*=====              FORM            ======*/
+
+.social-networks{
+    margin-top: 50px;
+    width: 80%;
+    gap: 40px;
+}
+.social-networks div{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.social-networks div i{
+    font-size: 24px;
+}
+
+.copyright p{
+    color: #8C8C94;
+    font-size: 12.5px;
+    font-family: Be Vietnam;
+    font-weight: 500;
+    margin-top: 50px;
+}
+
+/* @media screen and (min-width: 400px)  {...}*/
+/* @media screen and (min-width: 600px)  {
+
+} */
+@media screen and (min-width: 1000px) {
+    
+    .media-m{
+        display: flex;
+    }
+
+    .media-s{
+        display:none;
+    }
+
+    nav > i.burger-menu{
+        display: none;
+    }
+
+    .orientation{
+        display: flex;
+        flex-direction: row; 
+        gap: 20px;
+        width: 90vw;
+        justify-self: center;
+        margin: auto;
+    }
+
+    .banner-zone{
+        padding: 50px 12vw;
+        width: 100%;
+    }
+
+    .need-zone {
+        background: #8B48BF;
+    }
+
+    .need-zone > article{
+        align-items: center;
+        justify-content: center;
+        height: 180px;
+        padding-bottom: 0;
+    }
+
+    .solutions-zone{
+        flex-wrap: wrap;
+        padding: 50px 6%;
+        justify-content: space-around;
+        background: #FAFAFA;
+    }
+
+    .solutions-zone div{
+        max-width: 437px;
+    }
+
+    .solutions-zone div h2{
+        background: #FAFAFA;
+        gap: 10px;
+    }
+
+    .solutions-zone div p{
+    }
+
+    
+} 
+/* @media screen and (min-width: 1400px) {...} */
