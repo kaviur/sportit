@@ -28,19 +28,25 @@ header {
 
 a{
     text-decoration: none;
-    color: #242E52;
 }
 
 header ul{
     list-style: none;
     display: flex;
-    gap:.8rem;
+    gap: 2rem;
 }
 
 header nav i{
     color:#000000;
     font-size: 2rem;
     align-self: center;
+}
+
+header > nav a{
+    color: #242E52;
+    font-size: 13px;
+    font-family: Be Vietnam;
+    font-weight: 500;
 }
 
 .btn{
@@ -131,6 +137,7 @@ btn-secondary:hover, .btn-m:hover{
     align-items: flex-end;
     padding: 85px 0 32px 0;
     max-width: 500px;
+    gap: 25px;
 }
 
 .banner-zone h2{
@@ -249,7 +256,7 @@ btn-secondary:hover, .btn-m:hover{
     font-weight: 700;
     line-height: 156.6%;
     letter-spacing: -0.392px;
-    margin: 10px 0 60px 0;
+    margin: 10px 0 80px 0;
 }
 
 .testimonial-zone article{
@@ -257,6 +264,8 @@ btn-secondary:hover, .btn-m:hover{
     position: relative;
     flex-wrap: wrap;
     align-items: center;
+    width: 90%;
+    margin: auto;
 }
 
 .testimonial-zone article > img{
@@ -270,6 +279,7 @@ btn-secondary:hover, .btn-m:hover{
     font-weight: 700;
     line-height: 156.6%;
     letter-spacing: -0.161px;
+    margin: 0;
 }
 
 .testimonial-zone article > p{
@@ -285,7 +295,6 @@ btn-secondary:hover, .btn-m:hover{
 }
 
 .goforit-zone{
-    gap: 50px;
     background: #3CDDF3;
     justify-content: space-between;
     align-items: center;
@@ -324,6 +333,7 @@ footer{
     width: 80vw;
     margin: 50px 0;
     height: 44px;
+    gap: 5px;
 }
 
 .contact-form input:first-child{
@@ -336,10 +346,17 @@ footer{
     display: flex;
     height: 44px;
     width: 90%;
+    padding: 13px 0 13px 16px;
+    outline:none;
+    border: none;
 }
 
 .contact-form input:last-child{
     margin: 0;
+}
+
+.form__email:focus {
+    outline: 3px solid var(--main-color-clear);
 }
 
 .footer-navigation-menu{
@@ -414,7 +431,7 @@ footer{
         display: flex;
         flex-direction: row; 
         gap: 20px;
-        padding: 0 10vw;
+        padding: 0 7vw;
         justify-self: center;
     }
 
@@ -439,6 +456,7 @@ footer{
         padding: 50px 6%;
         justify-content: space-around;
         background: #FAFAFA;
+        margin-top: 0;
     }
 
     .solution-container{
@@ -459,9 +477,15 @@ footer{
         padding: 0;
     }
 
+    .testimonial-zone{
+        padding-bottom: 80px;
+    }
+
     .goforit-zone{
         background: #8B48BF;
+        padding: 0 10vw;
     }
+    
 
     .goforit-zone p{
         text-align: left;
@@ -506,7 +530,7 @@ footer{
         min-height: 140px;
         justify-content: space-between;
         gap: 22px;
-        padding: 60px 0 20px 0;
+        padding: 35px 0 20px 0;
         width: 80vw;
         margin: auto;
     } 
