@@ -433,16 +433,22 @@ footer{
         background: #FAFAFA;
     }
 
+    .solution-container{
+        display: flex;
+        align-items: flex-start;
+        gap: 15px;
+    }
     .solutions-zone div{
         max-width: 437px;
     }
 
-    .solutions-zone div h2{
+    .solutions-zone h2{
         background: #FAFAFA;
         gap: 10px;
     }
 
-    .solutions-zone div p{
+    .solutions-zone p{
+        padding: 0;
     }
 
     
