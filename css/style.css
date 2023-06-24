@@ -114,7 +114,9 @@ btn-secondary:hover,
 }
 
 /* hiding elements - mobile firts*/
-.media-m{
+.media-m,
+.hide-box
+{
   display: none;
 }
 
@@ -391,9 +393,12 @@ footer{
 }
 
 /* @media screen and (min-width: 400px)  {...}*/
-/* @media screen and (min-width: 600px)  {
+@media screen and (min-width: 600px)  {
+   .hide-box{
+        display:flex;
+   }  
+}
 
-} */
 @media screen and (min-width: 1000px) {
     
     .media-m{
