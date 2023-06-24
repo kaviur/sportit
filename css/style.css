@@ -487,5 +487,13 @@ footer{
         transition: all .5s;
         cursor: pointer;
     }
+
+    .footer-navigation-menu{
+        max-width: 392.727px;
+    }
+
+    .contact-form form {
+        max-width: 300px;
+    }
 } 
 /* @media screen and (min-width: 1400px) {...} */
