@@ -257,7 +257,6 @@ btn-secondary:hover, .btn-m:hover{
     position: relative;
     flex-wrap: wrap;
     align-items: center;
-    width: 90vw;
 }
 
 .testimonial-zone article > img{
