@@ -72,6 +72,11 @@ header nav i{
     font-weight: 500;
 }
 
+btn-secondary:hover, .btn-m:hover{
+    cursor: pointer;
+    opacity:.8;
+}
+
 .btn-m{   
     width: 134px;
     height: 44px;
@@ -231,7 +236,10 @@ header nav i{
 }
 
 .testimonial-zone{
+    display: flex;
     color: #232C50;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .testimonial-zone > h3{
@@ -252,11 +260,11 @@ header nav i{
     width: 90vw;
 }
 
-.testimonial-zone > article > img{
+.testimonial-zone article > img{
     transform: translateY(-50%);
 }
 
-.testimonial-zone > article > h4{
+.testimonial-zone article > h4{
     color: #3F4868;
     font-size: 16.071px;
     font-family: Be Vietnam;
@@ -265,7 +273,7 @@ header nav i{
     letter-spacing: -0.161px;
 }
 
-.testimonial-zone > article > p{
+.testimonial-zone article > p{
     color: #B9B9C1;
     font-size: 16px;
     font-family: Be Vietnam;
@@ -280,11 +288,13 @@ header nav i{
 .goforit-zone{
     gap: 50px;
     background: #3CDDF3;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .goforit-zone div{
-    width: 70vw;
-    padding: 50px 0 0 0;
+    padding: 50px 0;
+    text-align: left;
 }
 
 .goforit-zone p{
@@ -405,9 +415,8 @@ footer{
         display: flex;
         flex-direction: row; 
         gap: 20px;
-        width: 90vw;
+        padding: 0 10vw;
         justify-self: center;
-        margin: auto;
     }
 
     .banner-zone{
@@ -451,6 +460,32 @@ footer{
         padding: 0;
     }
 
-    
+    .goforit-zone{
+        background: #8B48BF;
+    }
+
+    .goforit-zone p{
+        text-align: left;
+    }
+
+    .goforit-zone .btn{
+        margin: 0;
+    }
+
+    .btn-secondary{
+        background: #FFF;
+        color: #8B48BF;
+        font-size: 13.181px;
+        font-family: Be Vietnam;
+        font-weight: 500;
+    }
+
+    .btn-secondary:hover{
+        transform: scale(1.2);
+        background-color: #31cde3;
+        color: #1e1e26;
+        transition: all .5s;
+        cursor: pointer;
+    }
 } 
 /* @media screen and (min-width: 1400px) {...} */
