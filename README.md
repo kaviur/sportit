@@ -1,3 +1,7 @@
+## Resultado
+https://kaviur.github.io/sportit/
+
+
 ## El reto
 
 Su desafío es crear esta página de destino y hacer que se parezca lo más posible al diseño.
